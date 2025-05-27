@@ -38,7 +38,7 @@ jobs:
       - name: Update kustomization.yaml
         run: |
           cd k8s
-          kustomize edit set image hello-fastapi=gustavokubiack/hello-fastapi-k8s:$GITHUB_SHA
+          kustomize edit set image gustavokubiack/hello-fastapi-k8s=gustavokubiack/hello-fastapi-k8s:$GITHUB_SHA
 
       - name: Commit changes
         run: |

@@ -7,5 +7,5 @@ spec:
     app: hello-fastapi
   ports:
     - protocol: TCP
-      port: 8000
+      port: 80
       targetPort: 8000
