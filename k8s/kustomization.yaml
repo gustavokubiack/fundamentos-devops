@@ -6,7 +6,7 @@ resources:
 images:
 - name: gustavokubiack/hello-fastapi-k8s
   newName: gustavokubiack/hello-fastapi-k8s
-  newTag: dda8a2cd539af7bcf923d51b40705cc7cd9364dd
+  newTag: a10abed2a1399b6da3a6c29dbbd95ea1dba256cd
 - name: hello-fastapi
   newName: gustavokubiack/hello-fastapi-k8s
   newTag: 62ca3a177535d87d1913aadb9c95725c9c3b7573
